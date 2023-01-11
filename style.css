@@ -1,0 +1,516 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    background-color:#EBEBEB;
+    font-family: "metropolis", sans-serif;
+    font-weight: 500;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+.container{
+    width: 1440px;
+    height: 2184px;
+    background: #FCFCFC;
+    padding: 50px; 
+    margin: 150px auto;
+}
+
+.personalize{
+width: 1281px;  
+height: 91px;
+border-radius: 0px;
+background: #FCFCFC;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+margin: 30px 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 50px 90px;
+}
+
+.arrow-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.arrow{
+    margin-right: 20px;
+    height: 100%;
+    position: relative;
+    top: 8px;
+    margin-right: 50px;
+}
+.personalize h1{
+font-size: 32px;
+line-height: 27px;
+color: #121212;
+}
+
+.save{
+    background: #543864;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 111.95px;
+    height: 31.28px;
+    color: #FCFCFC;
+    font-size: 14px;
+    border: none;
+
+}
+.theme-color{
+    margin: 30px 50px;
+    font-style: normal;
+    line-height: 27px;
+    padding: 30px;
+}
+
+.theme{
+    font-family: 'Actor', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-size: 26px;
+   
+}
+
+.theme-color p{
+font-weight: 400;
+font-size: 20px;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* color buttons */
+
+.color-div{
+    width: 666px;
+    height: 1573px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(122, 22, 22, 0.25);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 50px;
+}
+
+.color-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+}
+.color-options button{
+width: 183.01px;
+height: 137.48px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+margin: 10px;
+cursor: pointer;
+}
+
+.color-options button:hover,
+.color-options button:focus{
+    border: 4px solid #D3D3D3;
+    opacity: 1;
+}
+
+
+
+#white{
+    background: #FFFFFF;
+}
+#white:hover{
+    opacity: 0.5;
+}
+
+#light-green{
+    background: #89B6A5;
+}
+
+#dark-grey{
+    background: #423E3B;
+}
+#orange{
+    background: #E67F0D;
+}
+
+#deep-green{
+    background: #227A4A;
+}
+
+#light-blue{
+    background: #17BEBB;   
+}
+
+#light-grey{
+    background: #726E60;
+}
+
+#lemon{
+    background: #B6E86B;
+}
+
+#light-red{
+    background: #AF1B3F;
+
+}
+
+#deep-lemon{
+    background: #04AB3D;
+}
+
+#light-yellow{
+    background: #FCFF78;
+}
+
+#deep-navy-blue{
+    background: #340068;
+}
+
+#deep-pink{
+    background: #A54657;
+}
+
+#lighter-green{
+    background: #ABE188;
+}
+#blue-bay{
+    background: #6184D8;
+}
+
+#lightest-green{
+    background: #CBE896;
+}
+
+#pukinator-gold{
+    background: #767800;
+}
+#pink{
+    background: #EA526F;
+}
+
+#dark-blue{
+    background: #0A1045;
+}
+
+#lighest-pink{
+    background: #DBCBD8;
+}
+
+#yellow-gold{
+    background: #E1CE7A;
+}
+
+#dark-orange{
+    background: #FF8811;
+}
+
+#light-pink{
+    background: #DD7373; 
+}
+
+#red{
+    background: #E9190F;
+}
+
+.more-colors{
+    width: 111.95px;
+    height: 41px;
+    font-weight: 500;
+    line-height: 27px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    margin: 100px auto;
+    color: #FCFCFC;
+    background: #543864;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 5px 15px;
+    
+}
+
+/* apply theme */
+
+
+.apply-theme{
+    width: 666px;
+    height: 139px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin: 30px 50px;
+    line-height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.apply-image{
+    position: relative;
+    top: 17px;
+}
+
+.apply-theme h3{
+    font-family: 'Actor', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* sample page */
+
+.sample-page{
+    width: 483px;
+    border-radius: 5px;
+    margin-top: 35px;
+    background: #FDFBFB;
+
+    
+}
+
+.main-background{
+    border-radius: 5px;
+}
+
+.about{
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 395px;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+}
+
+.share-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 25px 10px;
+    border: none;
+
+
+}
+.round-button{
+    width: 22.09px;
+    height: 21px;
+    background: #543864;
+    border-radius: 50%;
+}
+
+.share{
+    background: #543864;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #FCFCFC;
+    width: 55px;
+    height: 21px;
+    
+}
+.golden-color{
+    margin-bottom: 70px;
+}
+
+.golden-box{
+    width: 483px;
+    height: 161px;
+    background: conic-gradient(from 180deg at 50% 50%, #674779 0deg, #FFBD69 142.5deg, #674779 360deg);
+    border-radius: 5px;
+    position: absolute;
+}
+
+.golden-circle{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background: conic-gradient(from 180deg at 50% 50%, #FFBD69 -121.88deg, #6A4979 90deg, #FFBD69 238.12deg, #6A4979 450deg);
+    position: relative;
+    top: 100px;
+    left: 25px;
+    border: 3px solid white;
+
+}
+
+.edit-profile{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 27px;
+    position: relative;
+    left: 370px;
+    background: #543864;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #FCFCFC;
+    padding: 5px 15px;
+    border: none;
+
+}
+
+.writeup{
+    margin: 10px 40px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.writeup h3{
+    font-weight: 700;
+}
+
+.writeup p{
+    margin-top: 10px;
+    line-height: 15px;
+    font-weight: 500;
+    font-size: 8px;
+}
+
+.writeup h4{
+    font-family: "Actor", sans-serif;
+    font-weight: 400;
+}
+
+
+.button-section{
+    width: 483px;
+    height: 47px;
+    background: #FCFCFC;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+
+    
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    
+
+    
+}
+.social-media button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 10px;
+    background: #F5F5F5;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+    color: #121212;
+    font-size: 10px;
+    font-weight: 500;
+    margin:  auto;
+
+}
+
+.my-links-sec{
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Actor", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+
+
+
+.my-links{
+    font-weight: bolder;
+}
+
+.media{
+    opacity: 0.7;
+}
+
+.topskill{
+    width: 483px;
+    height: 115px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-top: 5px;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+   
+    
+}
+
+.topskill img{
+    height: 10px;
+    width: 10px;
+}
+
+
+.rectangles{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.arrow-icon{
+    position: relative;
+    bottom: 48px;
+    left: 430px;
+}
+
+.topskill-div{
+    width: 432px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    margin:  10px auto 0;
+    padding: 0 30px;
+}
+
+
+
+.topskill h4{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.topskill p{
+    font-size: 14px;
+    line-height: 60px;
+    font-weight: bold;
+    position: relative;
+    right: 35px;
+
+
+}
+
+
+
